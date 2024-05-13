@@ -1,0 +1,77 @@
+1 - Express.js: No terminal do Visual Studio Code "npm install express" para instalar;
+
+2 - Rodar o projeto: "node app.js";
+
+3 - Link da api para o método GET, que retorna o estado de todas as lâmpadas: "http://localhost:8080/lampada";
+
+4 - Link da api para o método POST, para alterar o estado da lâmpada de uma divisão em especifico: "http://localhost:8080/lampada/Divisões*";
+
+5 - Link da api para o método POST, que apaga todas as lâmpadas da casa: "http://localhost:8080/apagar_todas";
+
+6 - Link da api para o método POST, que acender todas as lâmpadas da casa: "http://localhost:8080/acender_todas";
+
+7 - Link da api para o método POST, que apaga todas as lâmpadas da casa excepto a lâmpada da cozinha: "http://localhost:8080/jantar";
+
+8 - Link da api para o método POST, que apaga todas as lâmpadas da casa excepto a lâmpada do quarto: "http://localhost:8080/acordar";
+
+Divisões*:
+
+-sala
+-cozinha
+-quarto
+-casa_de_banho
+-garagem
+-hallEntrada
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2 - Visual Studio Code
+
+no terminal:
+
+1º- Criar o arquivo package: "npm init";
+
+2ª Gerir as requisições, rotas e URLs, etc: "npm install --save express";
+
+3º 
+
+4º Criar uma pasta controller;
+
+5º Criar dentro pasta o arquivo lampada.js;
+
+6º Criação de uma vareável "estadoLampada" para guardar o estado atual da lâmpada que por predefinição vem desligada;
+
+7º Método post que quando é chamado altera o estado da lampada e retorna o estado da lâmpada e uma mensagem de confirmação;
+
+8º Método get que quando é chamado mostra o estado atual da lâmpada;
+
+
+
+3 - Postman para testar a api
+
+1º Instalar o Postman
+
+2º Colocar o link da api http://localhost:8080/lampada
+
+
+Testar noutro pc http://10.5.50.138:8080
